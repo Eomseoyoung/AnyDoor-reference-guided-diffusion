@@ -207,7 +207,7 @@ python run_train_anydoor.py
 
 ### 입력
 
-- **참조 이미지**: RGB 또는 RGBA (선택적 알파 마스크)
+- **객체(장애물) 이미지**: 누끼 이미지
 - **참조 마스크**: 객체 경계를 정의하는 이진 마스크
 - **타겟 이미지**: RGB 이미지 (임의 크기)
 - **타겟 마스크**: 배치 영역을 정의하는 이진 마스크
@@ -217,6 +217,9 @@ python run_train_anydoor.py
 - 객체가 자연스럽게 삽입된 생성 이미지
 - 스케일 적응 및 외형 전송 처리
 - 응용: 가상 피팅, 객체 재배치, 씬 편집
+
+
+<img width="9840" height="2160" alt="output" src="https://github.com/user-attachments/assets/fec23fcf-05f6-4fd6-b8c2-c29a8c535820" />
 
 ## 설정 파일
 

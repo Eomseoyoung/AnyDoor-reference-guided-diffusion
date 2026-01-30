@@ -207,6 +207,7 @@ python run_train_anydoor.py
 ### 입력
 
 - **객체(장애물) 이미지**: 누끼 이미지
+     참고 사이트 : https://www.hiclipart.com/search?clipart=rock
 - **참조 마스크**: 객체 경계를 정의하는 이진 마스크
 - **타겟 이미지**: RGB 이미지 (임의 크기)
 - **타겟 마스크**: 배치 영역을 정의하는 이진 마스크
@@ -220,6 +221,10 @@ python run_train_anydoor.py
 
 <img width="9840" height="2160" alt="output" src="https://github.com/user-attachments/assets/fec23fcf-05f6-4fd6-b8c2-c29a8c535820" />
 
+### 결과
+- 이미지 한장(512x512) 5s 소요
+- 결과물 완성도 95% 이상
+  
 ## 설정 파일
 
 ### configs/anydoor.yaml
